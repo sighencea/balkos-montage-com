@@ -385,12 +385,22 @@ h2.h2{font-size:40px;font-weight:600;line-height:1.1;letter-spacing:-0.015em;col
   /* two-column inline grids collapse */
   [data-contact-grid],.grid-cert{grid-template-columns:1fr !important;}
   .cert-grid{grid-template-columns:repeat(2,1fr) !important;}
+  /* hairline multi-column grids -> 2 cols (single-column lists untouched) */
+  .hgrid[style*="repeat(3"],.hgrid[style*="repeat(4"],.hgrid[style*="repeat(5"],.hgrid[style*="repeat(6"]{grid-template-columns:repeat(2,minmax(0,1fr)) !important;}
+  /* industries sector rows (code / text / chips) stack */
+  .hcell[style*="120px 1fr 1.1fr"]{grid-template-columns:1fr !important;gap:16px !important;}
+  /* generic two-column split containers stack */
+  .container[style*="grid-template-columns:1fr 1fr"]{grid-template-columns:1fr !important;}
 }
 @media (max-width:480px){
   .cert-grid{grid-template-columns:1fr !important;}
 }
 @media (max-width:560px){
   .grid-3,.grid-2,.form-grid-2{grid-template-columns:1fr;}
+  /* hairline grids -> single column on phones */
+  .hgrid[style*="repeat(3"],.hgrid[style*="repeat(4"],.hgrid[style*="repeat(5"],.hgrid[style*="repeat(6"],.hgrid[style*="1fr 1fr"]{grid-template-columns:minmax(0,1fr) !important;}
+  /* job-listing rows: let the location chip + Apply wrap below the title */
+  .dl-row{flex-wrap:wrap;gap:14px;}
   .stats-row,.hero-strip{grid-template-columns:repeat(2,1fr);}
   .stat-cell:nth-child(2n){border-right:none;}
   .hero-strip .stat-cell:nth-child(-n+2){border-bottom:1px solid var(--navy-hair);}
