@@ -1,0 +1,21 @@
+# Claude Code (local, machine-specific)
+.claude/
+# (if you later add *shared* Claude config, un-ignore it, e.g.:)
+# !.claude/
+# .claude/settings.local.json
+
+# OS cruft
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*~
+
+# Logs / temp
+*.log
+.cache/
