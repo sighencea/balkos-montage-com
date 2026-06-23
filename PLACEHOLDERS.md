@@ -35,3 +35,14 @@ the design draft** and must be verified with real data before going live.
 ## Translations
 - `i18n/de.json` and `i18n/ro.json` were machine-translated in a professional
   B2B tone — have a native speaker proof the industrial terminology before launch.
+
+## Deployment / base URL  ⚠️
+- The site is currently served at **https://sighencea.github.io/balkos-montage-com/**
+  (GitHub Pages project sub-path), so all absolute URLs (`canonical`, `og:url`,
+  `og:image`, `twitter:image`, `sitemap.xml`, `robots.txt`) point there.
+- **When the custom domain `balkos-montage.com` goes live**, switch those back:
+  replace `https://sighencea.github.io/balkos-montage-com` →
+  `https://balkos-montage.com` across `*.html`, `sitemap.xml`, `robots.txt`,
+  and re-add a `CNAME` file containing `balkos-montage.com`.
+- `404.html` uses **relative** paths + inlined CSS/logo on purpose, so it needs
+  no change between the sub-path and the custom domain.
