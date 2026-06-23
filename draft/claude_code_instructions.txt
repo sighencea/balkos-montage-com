@@ -1,0 +1,12 @@
+Please ingest all files in folder /draft, to understand the requirements of the website we are about to build. The main website structure that I kindly ask you to build 1-to-1 is in the folder draft/web_draft. We will use GitHub pages to deploy this static website. Make the site nav/header sticky.
+
+Make the website mobile-friendly so it can be easily visited on a mobile device.
+
+Please remove the white background from the logo and save it ass PNG.
+
+The final website will be built using HTML, CSS, and JavaScript.
+For the career application form and the contact form please use placeholders for now, and we will implement functionality later.
+
+Please revert with your understanding of the project, any questions you might have, any concerns and solutions you might have, and improvement suggestions you might have.
+
+The end goal is to have a fully detailed implementation plan, with sprints.

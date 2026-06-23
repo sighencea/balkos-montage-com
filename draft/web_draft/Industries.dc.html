@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>*{box-sizing:border-box;}html,body{margin:0;padding:0;}body{font-family:'IBM Plex Sans',sans-serif;background:#fff;color:#3D4A57;-webkit-font-smoothing:antialiased;}img{display:block;}a{transition:color .15s,background .15s,border-color .15s;}</style>
+</helmet>
+
+<div style="width:100%;background:#fff;">
+  <dc-import name="SiteNav" active="industries" hint-size="100%,122px"></dc-import>
+
+  <section style="background:#0F2540;padding:64px 0 60px;">
+    <div style="max-width:1280px;margin:0 auto;padding:0 32px;">
+      <div style="font-family:'IBM Plex Mono',monospace;font-size:11.5px;letter-spacing:0.14em;text-transform:uppercase;color:#7E93AC;"><a href="Home.dc.html" style="color:#7E93AC;text-decoration:none;">Home</a> &nbsp;/&nbsp; <span style="color:#E08A4E;">Industries</span></div>
+      <h1 style="font-size:46px;font-weight:700;color:#fff;letter-spacing:-0.02em;line-height:1.1;margin:22px 0 0;max-width:760px;">Sectors we operate in</h1>
+      <p style="font-size:17px;line-height:1.6;color:#B7C6D6;margin:20px 0 0;max-width:660px;">We execute work in the most demanding industrial environments, where safety regimes, permits and uptime requirements leave no margin for error.</p>
+    </div>
+  </section>
+
+  <!-- INTRO + FEATURED IMAGE -->
+  <section style="background:#fff;padding:0;border-bottom:1px solid #DCE0E5;">
+    <div style="max-width:1280px;margin:0 auto;padding:0 32px;display:grid;grid-template-columns:1fr 1fr;">
+      <div style="padding:64px 56px 64px 0;display:flex;flex-direction:column;justify-content:center;">
+        <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:#C16A33;display:flex;align-items:center;gap:10px;"><span style="width:24px;height:1px;background:#C16A33;"></span>Six core sectors</div>
+        <h2 style="font-size:30px;font-weight:600;color:#0F2540;line-height:1.2;margin:16px 0 14px;letter-spacing:-0.01em;">One operating standard across every facility type</h2>
+        <p style="font-size:15px;line-height:1.7;color:#6B7785;margin:0;">Whether inside a refinery turnaround or a foundry maintenance scope, the same discipline applies: qualified people, permit-to-work compliance and a single point of accountability.</p>
+      </div>
+      <div style="position:relative;min-height:360px;border-left:1px solid #DCE0E5;"><img src="assets/refinery-stacks.jpg" alt="Refinery" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;" /></div>
+    </div>
+  </section>
+
+  <!-- INDUSTRY ROWS -->
+  <section style="background:#fff;padding:0;">
+    <div style="max-width:1280px;margin:0 auto;padding:0 32px;">
+      <div style="border-bottom:1px solid #DCE0E5;padding:46px 0;display:grid;grid-template-columns:120px 1fr 1.1fr;gap:40px;align-items:start;">
+        <div style="font-family:'IBM Plex Mono',monospace;font-size:13px;color:#9aa6b2;">IND-01</div>
+        <div><h3 style="font-size:24px;font-weight:600;color:#0F2540;margin:0 0 10px;">Chemical Industry</h3><p style="font-size:14.5px;line-height:1.7;color:#6B7785;margin:0;">Maintenance and construction inside active chemical process plants, working under strict permit-to-work and hazardous-area regimes.</p></div>
+        <div style="display:flex;flex-wrap:wrap;gap:8px;"><span style="font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#0F2540;border:1px solid #DDE2E7;padding:8px 12px;">Process piping</span><span style="font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#0F2540;border:1px solid #DDE2E7;padding:8px 12px;">Equipment overhaul</span><span style="font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#0F2540;border:1px solid #DDE2E7;padding:8px 12px;">Preventive maintenance</span></div>
+      </div>
+      <div style="border-bottom:1px solid #DCE0E5;padding:46px 0;display:grid;grid-template-columns:120px 1fr 1.1fr;gap:40px;align-items:start;">
+        <div style="font-family:'IBM Plex Mono',monospace;font-size:13px;color:#9aa6b2;">IND-02</div>
+        <div><h3 style="font-size:24px;font-weight:600;color:#0F2540;margin:0 0 10px;">Petrochemical Industry</h3><p style="font-size:14.5px;line-height:1.7;color:#6B7785;margin:0;">Piping, equipment and structural work in high-hazard petrochemical facilities where execution quality is non-negotiable.</p></div>
+        <div style="display:flex;flex-wrap:wrap;gap:8px;"><span style="font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#0F2540;border:1px solid #DDE2E7;padding:8px 12px;">Pipeline installation</span><span style="font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#0F2540;border:1px solid #DDE2E7;padding:8px 12px;">Fabrication</span><span style="font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#0F2540;border:1px solid #DDE2E7;padding:8px 12px;">Shutdown support</span></div>
+      </div>
+      <div style="border-bottom:1px solid #DCE0E5;padding:46px 0;display:grid;grid-template-columns:120px 1fr 1.1fr;gap:40px;align-items:start;">
+        <div style="font-family:'IBM Plex Mono',monospace;font-size:13px;color:#9aa6b2;">IND-03</div>
+        <div><h3 style="font-size:24px;font-weight:600;color:#0F2540;margin:0 0 10px;">Refineries</h3><p style="font-size:14.5px;line-height:1.7;color:#6B7785;margin:0;">Turnaround and routine maintenance scopes executed to refinery safety standards, with crews experienced in live-plant conditions.</p></div>
+        <div style="display:flex;flex-wrap:wrap;gap:8px;"><span style="font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#0F2540;border:1px solid #DDE2E7;padding:8px 12px;">Turnaround execution</span><span style="font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#0F2540;border:1px solid #DDE2E7;padding:8px 12px;">Piping replacement</span><span style="font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#0F2540;border:1px solid #DDE2E7;padding:8px 12px;">Mechanical works</span></div>
+      </div>
+      <div style="border-bottom:1px solid #DCE0E5;padding:46px 0;display:grid;grid-template-columns:120px 1fr 1.1fr;gap:40px;align-items:start;">
+        <div style="font-family:'IBM Plex Mono',monospace;font-size:13px;color:#9aa6b2;">IND-04</div>
+        <div><h3 style="font-size:24px;font-weight:600;color:#0F2540;margin:0 0 10px;">Foundries</h3><p style="font-size:14.5px;line-height:1.7;color:#6B7785;margin:0;">Maintenance and construction work for foundry plant, material-handling systems and high-temperature process equipment.</p></div>
+        <div style="display:flex;flex-wrap:wrap;gap:8px;"><span style="font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#0F2540;border:1px solid #DDE2E7;padding:8px 12px;">Plant maintenance</span><span style="font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#0F2540;border:1px solid #DDE2E7;padding:8px 12px;">Structural work</span><span style="font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#0F2540;border:1px solid #DDE2E7;padding:8px 12px;">Conveying systems</span></div>
+      </div>
+      <div style="border-bottom:1px solid #DCE0E5;padding:46px 0;display:grid;grid-template-columns:120px 1fr 1.1fr;gap:40px;align-items:start;">
+        <div style="font-family:'IBM Plex Mono',monospace;font-size:13px;color:#9aa6b2;">IND-05</div>
+        <div><h3 style="font-size:24px;font-weight:600;color:#0F2540;margin:0 0 10px;">Industrial Manufacturing</h3><p style="font-size:14.5px;line-height:1.7;color:#6B7785;margin:0;">Mechanical installation and upkeep across heavy manufacturing operations, supporting continuous production lines.</p></div>
+        <div style="display:flex;flex-wrap:wrap;gap:8px;"><span style="font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#0F2540;border:1px solid #DDE2E7;padding:8px 12px;">Mechanical installation</span><span style="font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#0F2540;border:1px solid #DDE2E7;padding:8px 12px;">Line maintenance</span><span style="font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#0F2540;border:1px solid #DDE2E7;padding:8px 12px;">Relocations</span></div>
+      </div>
+      <div style="padding:46px 0;display:grid;grid-template-columns:120px 1fr 1.1fr;gap:40px;align-items:start;">
+        <div style="font-family:'IBM Plex Mono',monospace;font-size:13px;color:#9aa6b2;">IND-06</div>
+        <div><h3 style="font-size:24px;font-weight:600;color:#0F2540;margin:0 0 10px;">Energy Facilities</h3><p style="font-size:14.5px;line-height:1.7;color:#6B7785;margin:0;">Plant maintenance and pipework for power and energy generation sites, delivered to the same safety and quality standards.</p></div>
+        <div style="display:flex;flex-wrap:wrap;gap:8px;"><span style="font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#0F2540;border:1px solid #DDE2E7;padding:8px 12px;">Pipework</span><span style="font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#0F2540;border:1px solid #DDE2E7;padding:8px 12px;">Plant maintenance</span><span style="font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#0F2540;border:1px solid #DDE2E7;padding:8px 12px;">Outage support</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section style="background:#F4F5F7;padding:64px 0;border-top:1px solid #DCE0E5;">
+    <div style="max-width:1280px;margin:0 auto;padding:0 32px;display:flex;align-items:center;justify-content:space-between;gap:40px;">
+      <div><h2 style="font-size:28px;font-weight:600;color:#0F2540;margin:0 0 8px;">Operating in your sector?</h2><p style="font-size:15px;color:#6B7785;margin:0;">Tell us about your facility and scope — we will respond with a realistic proposal.</p></div>
+      <a href="Contact.dc.html" style="flex:none;background:#C16A33;color:#fff;font-size:14.5px;font-weight:600;text-decoration:none;padding:15px 26px;display:flex;align-items:center;gap:10px;" style-hover="background:#a9582a;">Request a Quote <span style="font-family:'IBM Plex Mono',monospace;font-weight:400;">→</span></a>
+    </div>
+  </section>
+
+  <dc-import name="SiteFooter" hint-size="100%,480px"></dc-import>
+</div>
+</x-dc>
+</body>
+</html>

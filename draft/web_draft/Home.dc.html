@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *{box-sizing:border-box;}
+    html,body{margin:0;padding:0;}
+    body{font-family:'IBM Plex Sans',sans-serif;background:#fff;color:#3D4A57;-webkit-font-smoothing:antialiased;}
+    img{display:block;}
+    a{transition:color .15s ease,background .15s ease,border-color .15s ease;}
+  </style>
+</helmet>
+
+<div style="width:100%;background:#fff;">
+  <dc-import name="SiteNav" active="home" hint-size="100%,122px"></dc-import>
+
+  <!-- ============ HERO ============ -->
+  <section style="position:relative;background:#0B1E33;overflow:hidden;">
+    <img src="assets/maintenance-crane.jpg" alt="Industrial maintenance work" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0.42;" />
+    <div style="position:absolute;inset:0;background:linear-gradient(90deg,#08182a 0%,rgba(8,24,42,0.86) 42%,rgba(8,24,42,0.45) 100%);"></div>
+    <div style="position:relative;max-width:1280px;margin:0 auto;padding:104px 32px 0;">
+      <div style="max-width:720px;">
+        <div style="font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:0.2em;text-transform:uppercase;color:#E08A4E;display:flex;align-items:center;gap:12px;">
+          <span style="width:28px;height:1px;background:#C16A33;"></span>Industrial Contractor · Est. 2004
+        </div>
+        <h1 style="font-size:56px;line-height:1.08;font-weight:700;color:#fff;letter-spacing:-0.02em;margin:26px 0 0;">Industrial Projects Executed by Qualified Specialists</h1>
+        <p style="font-size:18.5px;line-height:1.6;color:#B7C6D6;margin:26px 0 0;max-width:620px;">Pipeline construction, industrial maintenance, shutdown services and project execution for refineries, chemical plants, petrochemical facilities and foundries.</p>
+        <div style="display:flex;gap:14px;margin-top:38px;">
+          <a href="Contact.dc.html" style="background:#C16A33;color:#fff;font-size:14.5px;font-weight:600;letter-spacing:0.03em;text-decoration:none;padding:16px 28px;display:flex;align-items:center;gap:10px;" style-hover="background:#a9582a;">Request a Quote <span style="font-family:'IBM Plex Mono',monospace;font-weight:400;">→</span></a>
+          <a href="Services.dc.html" style="background:transparent;color:#fff;font-size:14.5px;font-weight:600;letter-spacing:0.03em;text-decoration:none;padding:16px 28px;border:1px solid #41597a;display:flex;align-items:center;" style-hover="border-color:#fff;">View Services</a>
+        </div>
+      </div>
+      <!-- hero data strip -->
+      <div style="margin-top:84px;border-top:1px solid #29415f;display:grid;grid-template-columns:repeat(4,1fr);">
+        <div style="padding:24px 28px 26px;border-right:1px solid #29415f;">
+          <div style="font-size:30px;font-weight:700;color:#fff;letter-spacing:-0.01em;">20<span style="color:#C16A33;">+</span></div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:#7E93AC;margin-top:6px;">Years in operation</div>
+        </div>
+        <div style="padding:24px 28px 26px;border-right:1px solid #29415f;">
+          <div style="font-size:30px;font-weight:700;color:#fff;letter-spacing:-0.01em;">350<span style="color:#C16A33;">+</span></div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:#7E93AC;margin-top:6px;">Own qualified workforce</div>
+        </div>
+        <div style="padding:24px 28px 26px;border-right:1px solid #29415f;">
+          <div style="font-size:30px;font-weight:700;color:#fff;letter-spacing:-0.01em;">4</div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:#7E93AC;margin-top:6px;">Core industrial sectors</div>
+        </div>
+        <div style="padding:24px 28px 26px;">
+          <div style="font-size:30px;font-weight:700;color:#fff;letter-spacing:-0.01em;">0.0</div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:#7E93AC;margin-top:6px;">LTI target on every site</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TRUST STRIP ============ -->
+  <section style="background:#fff;border-bottom:1px solid #DCE0E5;">
+    <div style="max-width:1280px;margin:0 auto;padding:0 32px;display:flex;align-items:stretch;">
+      <div style="flex:none;display:flex;align-items:center;padding:22px 32px 22px 0;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.16em;text-transform:uppercase;color:#9aa6b2;border-right:1px solid #DCE0E5;">Core<br/>Capabilities</div>
+      <div style="flex:1;display:grid;grid-template-columns:repeat(5,1fr);">
+        <div style="padding:22px 22px;border-right:1px solid #ECEEF1;font-size:14px;font-weight:600;color:#0F2540;display:flex;align-items:center;">Pipeline Construction &amp; Fabrication</div>
+        <div style="padding:22px 22px;border-right:1px solid #ECEEF1;font-size:14px;font-weight:600;color:#0F2540;display:flex;align-items:center;">Industrial Maintenance</div>
+        <div style="padding:22px 22px;border-right:1px solid #ECEEF1;font-size:14px;font-weight:600;color:#0F2540;display:flex;align-items:center;">Shutdown Services</div>
+        <div style="padding:22px 22px;border-right:1px solid #ECEEF1;font-size:14px;font-weight:600;color:#0F2540;display:flex;align-items:center;">Qualified Workforce</div>
+        <div style="padding:22px 22px;font-size:14px;font-weight:600;color:#0F2540;display:flex;align-items:center;">Compliance &amp; Safety</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES OVERVIEW ============ -->
+  <section style="background:#fff;padding:90px 0;">
+    <div style="max-width:1280px;margin:0 auto;padding:0 32px;">
+      <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:40px;margin-bottom:46px;">
+        <div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:#C16A33;display:flex;align-items:center;gap:10px;"><span style="width:24px;height:1px;background:#C16A33;"></span>01 / Services</div>
+          <h2 style="font-size:40px;font-weight:600;color:#0F2540;letter-spacing:-0.015em;line-height:1.1;margin:18px 0 0;">What we execute</h2>
+        </div>
+        <p style="max-width:430px;font-size:15px;line-height:1.7;color:#6B7785;margin:0 0 6px;">Project execution delivered with our own workforce. Personnel leasing remains available as a supporting service.</p>
+      </div>
+
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:24px;">
+        <!-- Service 1 -->
+        <a href="Services.dc.html" style="text-decoration:none;border:1px solid #DDE2E7;background:#fff;display:flex;flex-direction:column;" style-hover="border-color:#0F2540;">
+          <div style="height:200px;overflow:hidden;position:relative;border-bottom:1px solid #DDE2E7;">
+            <img src="assets/pipeline-install.jpg" alt="Pipeline construction" style="width:100%;height:100%;object-fit:cover;" />
+            <span style="position:absolute;top:0;left:0;background:#C16A33;color:#fff;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.1em;padding:7px 11px;">01</span>
+          </div>
+          <div style="padding:26px 26px 28px;">
+            <h3 style="font-size:20px;font-weight:600;color:#0F2540;margin:0;line-height:1.25;">Pipeline Construction &amp; Fabrication</h3>
+            <p style="font-size:14px;line-height:1.65;color:#6B7785;margin:13px 0 0;">Prefabrication, on-site installation, welding and testing of process piping and pipeline systems to industrial code.</p>
+            <span style="display:inline-flex;align-items:center;gap:8px;margin-top:20px;font-size:13px;font-weight:600;color:#C16A33;font-family:'IBM Plex Mono',monospace;">Capabilities →</span>
+          </div>
+        </a>
+        <!-- Service 2 -->
+        <a href="Services.dc.html" style="text-decoration:none;border:1px solid #DDE2E7;background:#fff;display:flex;flex-direction:column;" style-hover="border-color:#0F2540;">
+          <div style="height:200px;overflow:hidden;position:relative;border-bottom:1px solid #DDE2E7;">
+            <img src="assets/refinery-workers.jpg" alt="Industrial maintenance" style="width:100%;height:100%;object-fit:cover;" />
+            <span style="position:absolute;top:0;left:0;background:#C16A33;color:#fff;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.1em;padding:7px 11px;">02</span>
+          </div>
+          <div style="padding:26px 26px 28px;">
+            <h3 style="font-size:20px;font-weight:600;color:#0F2540;margin:0;line-height:1.25;">Industrial Maintenance</h3>
+            <p style="font-size:14px;line-height:1.65;color:#6B7785;margin:13px 0 0;">Preventive and corrective maintenance of process equipment, keeping plants safe, compliant and in continuous operation.</p>
+            <span style="display:inline-flex;align-items:center;gap:8px;margin-top:20px;font-size:13px;font-weight:600;color:#C16A33;font-family:'IBM Plex Mono',monospace;">Capabilities →</span>
+          </div>
+        </a>
+        <!-- Service 3 -->
+        <a href="Services.dc.html" style="text-decoration:none;border:1px solid #DDE2E7;background:#fff;display:flex;flex-direction:column;" style-hover="border-color:#0F2540;">
+          <div style="height:200px;overflow:hidden;position:relative;border-bottom:1px solid #DDE2E7;">
+            <img src="assets/shutdown-columns.jpg" alt="Shutdown services" style="width:100%;height:100%;object-fit:cover;" />
+            <span style="position:absolute;top:0;left:0;background:#C16A33;color:#fff;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.1em;padding:7px 11px;">03</span>
+          </div>
+          <div style="padding:26px 26px 28px;">
+            <h3 style="font-size:20px;font-weight:600;color:#0F2540;margin:0;line-height:1.25;">Shutdown &amp; Turnaround Services</h3>
+            <p style="font-size:14px;line-height:1.65;color:#6B7785;margin:13px 0 0;">Planned turnaround execution under tight schedules — mobilised crews, sequenced scopes and predictable handback.</p>
+            <span style="display:inline-flex;align-items:center;gap:8px;margin-top:20px;font-size:13px;font-weight:600;color:#C16A33;font-family:'IBM Plex Mono',monospace;">Capabilities →</span>
+          </div>
+        </a>
+      </div>
+
+      <!-- Secondary service: Personnel Leasing -->
+      <a href="Services.dc.html" style="text-decoration:none;margin-top:24px;border:1px solid #DDE2E7;background:#F6F7F9;display:flex;align-items:center;justify-content:space-between;gap:32px;padding:24px 28px;" style-hover="border-color:#9aa6b2;">
+        <div style="display:flex;align-items:center;gap:22px;">
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.1em;color:#fff;background:#8a96a3;padding:7px 11px;">04</span>
+          <div>
+            <div style="display:flex;align-items:center;gap:12px;">
+              <h3 style="font-size:18px;font-weight:600;color:#0F2540;margin:0;">Personnel Leasing</h3>
+              <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.14em;text-transform:uppercase;color:#8a96a3;border:1px solid #c9d0d8;padding:4px 8px;">Secondary service</span>
+            </div>
+            <p style="font-size:13.5px;color:#6B7785;margin:7px 0 0;">Qualified welders, pipefitters and mechanics to reinforce your teams when project demand peaks.</p>
+          </div>
+        </div>
+        <span style="flex:none;font-size:13px;font-weight:600;color:#0F2540;font-family:'IBM Plex Mono',monospace;">Learn more →</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ INDUSTRIES ============ -->
+  <section style="background:#F4F5F7;padding:90px 0;border-top:1px solid #DCE0E5;">
+    <div style="max-width:1280px;margin:0 auto;padding:0 32px;">
+      <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:#C16A33;display:flex;align-items:center;gap:10px;"><span style="width:24px;height:1px;background:#C16A33;"></span>02 / Industries</div>
+      <h2 style="font-size:40px;font-weight:600;color:#0F2540;letter-spacing:-0.015em;line-height:1.1;margin:18px 0 46px;">Sectors we operate in</h2>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:#DCE0E5;border:1px solid #DCE0E5;">
+        <div style="background:#fff;padding:30px 28px;border-top:3px solid #0F2540;">
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#9aa6b2;">IND-01</div>
+          <h3 style="font-size:19px;font-weight:600;color:#0F2540;margin:14px 0 0;">Chemical Industry</h3>
+          <p style="font-size:13.5px;line-height:1.65;color:#6B7785;margin:10px 0 0;">Maintenance and construction in active process environments with strict permit-to-work regimes.</p>
+        </div>
+        <div style="background:#fff;padding:30px 28px;border-top:3px solid #0F2540;">
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#9aa6b2;">IND-02</div>
+          <h3 style="font-size:19px;font-weight:600;color:#0F2540;margin:14px 0 0;">Petrochemical Industry</h3>
+          <p style="font-size:13.5px;line-height:1.65;color:#6B7785;margin:10px 0 0;">Piping, equipment and structural work in high-hazard petrochemical facilities.</p>
+        </div>
+        <div style="background:#fff;padding:30px 28px;border-top:3px solid #0F2540;">
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#9aa6b2;">IND-03</div>
+          <h3 style="font-size:19px;font-weight:600;color:#0F2540;margin:14px 0 0;">Refineries</h3>
+          <p style="font-size:13.5px;line-height:1.65;color:#6B7785;margin:10px 0 0;">Turnaround and routine maintenance scopes executed to refinery safety standards.</p>
+        </div>
+        <div style="background:#fff;padding:30px 28px;border-top:3px solid #0F2540;">
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#9aa6b2;">IND-04</div>
+          <h3 style="font-size:19px;font-weight:600;color:#0F2540;margin:14px 0 0;">Foundries</h3>
+          <p style="font-size:13.5px;line-height:1.65;color:#6B7785;margin:10px 0 0;">Maintenance and construction work for foundry plant and material-handling systems.</p>
+        </div>
+        <div style="background:#fff;padding:30px 28px;border-top:3px solid #0F2540;">
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#9aa6b2;">IND-05</div>
+          <h3 style="font-size:19px;font-weight:600;color:#0F2540;margin:14px 0 0;">Industrial Manufacturing</h3>
+          <p style="font-size:13.5px;line-height:1.65;color:#6B7785;margin:10px 0 0;">Mechanical installation and upkeep across heavy manufacturing operations.</p>
+        </div>
+        <div style="background:#fff;padding:30px 28px;border-top:3px solid #0F2540;">
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#9aa6b2;">IND-06</div>
+          <h3 style="font-size:19px;font-weight:600;color:#0F2540;margin:14px 0 0;">Energy Facilities</h3>
+          <p style="font-size:13.5px;line-height:1.65;color:#6B7785;margin:10px 0 0;">Plant maintenance and pipework for power and energy generation sites.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section style="background:#fff;padding:90px 0;">
+    <div style="max-width:1280px;margin:0 auto;padding:0 32px;">
+      <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:40px;margin-bottom:46px;">
+        <div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:#C16A33;display:flex;align-items:center;gap:10px;"><span style="width:24px;height:1px;background:#C16A33;"></span>03 / Projects</div>
+          <h2 style="font-size:40px;font-weight:600;color:#0F2540;letter-spacing:-0.015em;line-height:1.1;margin:18px 0 0;">Selected execution references</h2>
+        </div>
+        <a href="Projects.dc.html" style="flex:none;font-size:13.5px;font-weight:600;color:#0F2540;text-decoration:none;font-family:'IBM Plex Mono',monospace;border-bottom:2px solid #C16A33;padding-bottom:4px;">All projects →</a>
+      </div>
+
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:24px;">
+        <!-- Project card 1 -->
+        <div style="border:1px solid #DDE2E7;background:#fff;">
+          <div style="height:190px;overflow:hidden;border-bottom:1px solid #DDE2E7;"><img src="assets/refinery-stacks.jpg" alt="Refinery turnaround" style="width:100%;height:100%;object-fit:cover;" /></div>
+          <div style="padding:24px;">
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:#C16A33;">Refinery</span>
+            <h3 style="font-size:18px;font-weight:600;color:#0F2540;margin:10px 0 18px;line-height:1.3;">Crude Unit Turnaround Support</h3>
+            <div style="display:flex;flex-direction:column;gap:11px;">
+              <div style="display:grid;grid-template-columns:84px 1fr;gap:12px;"><span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.06em;text-transform:uppercase;color:#9aa6b2;padding-top:1px;">Scope</span><span style="font-size:13px;color:#3D4A57;">Piping replacement &amp; equipment overhaul</span></div>
+              <div style="display:grid;grid-template-columns:84px 1fr;gap:12px;"><span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.06em;text-transform:uppercase;color:#9aa6b2;padding-top:1px;">Services</span><span style="font-size:13px;color:#3D4A57;">Shutdown · Welding · Mechanical</span></div>
+              <div style="display:grid;grid-template-columns:84px 1fr;gap:12px;"><span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.06em;text-transform:uppercase;color:#9aa6b2;padding-top:1px;">Outcome</span><span style="font-size:13px;color:#0F2540;font-weight:600;">Handed back on schedule, zero LTI</span></div>
+            </div>
+          </div>
+        </div>
+        <!-- Project card 2 -->
+        <div style="border:1px solid #DDE2E7;background:#fff;">
+          <div style="height:190px;overflow:hidden;border-bottom:1px solid #DDE2E7;"><img src="assets/pipeline-install.jpg" alt="Pipeline installation" style="width:100%;height:100%;object-fit:cover;" /></div>
+          <div style="padding:24px;">
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:#C16A33;">Petrochemical</span>
+            <h3 style="font-size:18px;font-weight:600;color:#0F2540;margin:10px 0 18px;line-height:1.3;">Process Pipeline Installation</h3>
+            <div style="display:flex;flex-direction:column;gap:11px;">
+              <div style="display:grid;grid-template-columns:84px 1fr;gap:12px;"><span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.06em;text-transform:uppercase;color:#9aa6b2;padding-top:1px;">Scope</span><span style="font-size:13px;color:#3D4A57;">Prefab &amp; install of stainless process lines</span></div>
+              <div style="display:grid;grid-template-columns:84px 1fr;gap:12px;"><span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.06em;text-transform:uppercase;color:#9aa6b2;padding-top:1px;">Services</span><span style="font-size:13px;color:#3D4A57;">Fabrication · Pipeline · NDT</span></div>
+              <div style="display:grid;grid-template-columns:84px 1fr;gap:12px;"><span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.06em;text-transform:uppercase;color:#9aa6b2;padding-top:1px;">Outcome</span><span style="font-size:13px;color:#0F2540;font-weight:600;">100% weld acceptance on first NDT</span></div>
+            </div>
+          </div>
+        </div>
+        <!-- Project card 3 -->
+        <div style="border:1px solid #DDE2E7;background:#fff;">
+          <div style="height:190px;overflow:hidden;border-bottom:1px solid #DDE2E7;"><img src="assets/plant-piperack.jpg" alt="Plant maintenance" style="width:100%;height:100%;object-fit:cover;" /></div>
+          <div style="padding:24px;">
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:0.12em;text-transform:uppercase;color:#C16A33;">Chemical</span>
+            <h3 style="font-size:18px;font-weight:600;color:#0F2540;margin:10px 0 18px;line-height:1.3;">Plant Maintenance Framework</h3>
+            <div style="display:flex;flex-direction:column;gap:11px;">
+              <div style="display:grid;grid-template-columns:84px 1fr;gap:12px;"><span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.06em;text-transform:uppercase;color:#9aa6b2;padding-top:1px;">Scope</span><span style="font-size:13px;color:#3D4A57;">Multi-year preventive maintenance</span></div>
+              <div style="display:grid;grid-template-columns:84px 1fr;gap:12px;"><span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.06em;text-transform:uppercase;color:#9aa6b2;padding-top:1px;">Services</span><span style="font-size:13px;color:#3D4A57;">Maintenance · Mechanical · Standby</span></div>
+              <div style="display:grid;grid-template-columns:84px 1fr;gap:12px;"><span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.06em;text-transform:uppercase;color:#9aa6b2;padding-top:1px;">Outcome</span><span style="font-size:13px;color:#0F2540;font-weight:600;">99.4% availability sustained</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ OUR CLIENTS ============ -->
+  <section style="background:#0F2540;padding:88px 0;position:relative;">
+    <div style="max-width:1280px;margin:0 auto;padding:0 32px;">
+      <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:40px;">
+        <div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:#E08A4E;display:flex;align-items:center;gap:10px;"><span style="width:24px;height:1px;background:#C16A33;"></span>04 / Our Clients</div>
+          <h2 style="font-size:40px;font-weight:600;color:#fff;letter-spacing:-0.015em;line-height:1.1;margin:18px 0 0;">Trusted on operating sites</h2>
+          <p style="font-size:15px;line-height:1.7;color:#9FB2C8;margin:16px 0 0;max-width:560px;">We are repeatedly approved to work inside live chemical, petrochemical and refinery facilities — the strongest signal of operational trust an industrial contractor can hold.</p>
+        </div>
+        <a href="Clients.dc.html" style="flex:none;font-size:13.5px;font-weight:600;color:#fff;text-decoration:none;font-family:'IBM Plex Mono',monospace;border-bottom:2px solid #C16A33;padding-bottom:4px;">Client overview →</a>
+      </div>
+
+      <!-- stats -->
+      <div style="margin-top:48px;display:grid;grid-template-columns:repeat(4,1fr);border:1px solid #29415f;">
+        <div style="padding:26px 26px;border-right:1px solid #29415f;"><div style="font-size:30px;font-weight:700;color:#fff;">40<span style="color:#C16A33;">+</span></div><div style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:#7E93AC;margin-top:6px;">Industrial clients</div></div>
+        <div style="padding:26px 26px;border-right:1px solid #29415f;"><div style="font-size:30px;font-weight:700;color:#fff;">12<span style="color:#C16A33;"> yrs</span></div><div style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:#7E93AC;margin-top:6px;">Longest cooperation</div></div>
+        <div style="padding:26px 26px;border-right:1px solid #29415f;"><div style="font-size:30px;font-weight:700;color:#fff;">85<span style="color:#C16A33;">%</span></div><div style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:#7E93AC;margin-top:6px;">Repeat engagements</div></div>
+        <div style="padding:26px 26px;"><div style="font-size:30px;font-weight:700;color:#fff;">6</div><div style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:#7E93AC;margin-top:6px;">Sectors served</div></div>
+      </div>
+
+      <!-- logo placeholders -->
+      <div style="margin-top:24px;display:grid;grid-template-columns:repeat(6,1fr);border:1px solid #29415f;border-bottom:none;">
+        <div style="height:88px;border-right:1px solid #29415f;border-bottom:1px solid #29415f;display:flex;align-items:center;justify-content:center;background:repeating-linear-gradient(135deg,#13294480,#13294480 8px,#162e4d80 8px,#162e4d80 16px);font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.1em;color:#5d7693;text-transform:uppercase;">Client logo</div>
+        <div style="height:88px;border-right:1px solid #29415f;border-bottom:1px solid #29415f;display:flex;align-items:center;justify-content:center;background:repeating-linear-gradient(135deg,#13294480,#13294480 8px,#162e4d80 8px,#162e4d80 16px);font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.1em;color:#5d7693;text-transform:uppercase;">Client logo</div>
+        <div style="height:88px;border-right:1px solid #29415f;border-bottom:1px solid #29415f;display:flex;align-items:center;justify-content:center;background:repeating-linear-gradient(135deg,#13294480,#13294480 8px,#162e4d80 8px,#162e4d80 16px);font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.1em;color:#5d7693;text-transform:uppercase;">Client logo</div>
+        <div style="height:88px;border-right:1px solid #29415f;border-bottom:1px solid #29415f;display:flex;align-items:center;justify-content:center;background:repeating-linear-gradient(135deg,#13294480,#13294480 8px,#162e4d80 8px,#162e4d80 16px);font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.1em;color:#5d7693;text-transform:uppercase;">Client logo</div>
+        <div style="height:88px;border-right:1px solid #29415f;border-bottom:1px solid #29415f;display:flex;align-items:center;justify-content:center;background:repeating-linear-gradient(135deg,#13294480,#13294480 8px,#162e4d80 8px,#162e4d80 16px);font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.1em;color:#5d7693;text-transform:uppercase;">Client logo</div>
+        <div style="height:88px;border-bottom:1px solid #29415f;display:flex;align-items:center;justify-content:center;background:repeating-linear-gradient(135deg,#13294480,#13294480 8px,#162e4d80 8px,#162e4d80 16px);font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.1em;color:#5d7693;text-transform:uppercase;">Client logo</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CERTIFICATES & COMPLIANCE ============ -->
+  <section style="background:#fff;padding:90px 0;">
+    <div style="max-width:1280px;margin:0 auto;padding:0 32px;display:grid;grid-template-columns:1fr 1.15fr;gap:64px;align-items:start;">
+      <div>
+        <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:#C16A33;display:flex;align-items:center;gap:10px;"><span style="width:24px;height:1px;background:#C16A33;"></span>05 / Certificates &amp; Compliance</div>
+        <h2 style="font-size:40px;font-weight:600;color:#0F2540;letter-spacing:-0.015em;line-height:1.1;margin:18px 0 0;">Audited, certified, accountable</h2>
+        <p style="font-size:15px;line-height:1.7;color:#6B7785;margin:18px 0 28px;">Our management systems and site procedures are externally audited and aligned to the standards expected on hazardous industrial sites.</p>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:1px;background:#DCE0E5;border:1px solid #DCE0E5;">
+          <div style="background:#fff;padding:22px;"><div style="font-family:'IBM Plex Mono',monospace;font-size:13px;font-weight:600;color:#0F2540;">ISO 9001</div><div style="font-size:12.5px;color:#6B7785;margin-top:5px;">Quality management</div></div>
+          <div style="background:#fff;padding:22px;"><div style="font-family:'IBM Plex Mono',monospace;font-size:13px;font-weight:600;color:#0F2540;">ISO 45001</div><div style="font-size:12.5px;color:#6B7785;margin-top:5px;">Occupational H&amp;S</div></div>
+          <div style="background:#fff;padding:22px;"><div style="font-family:'IBM Plex Mono',monospace;font-size:13px;font-weight:600;color:#0F2540;">DIN EN 1090</div><div style="font-size:12.5px;color:#6B7785;margin-top:5px;">Structural steel</div></div>
+          <div style="background:#fff;padding:22px;"><div style="font-family:'IBM Plex Mono',monospace;font-size:13px;font-weight:600;color:#0F2540;">SCC** / DIN 2303</div><div style="font-size:12.5px;color:#6B7785;margin-top:5px;">Safety &amp; welding</div></div>
+        </div>
+      </div>
+      <div>
+        <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:#9aa6b2;margin-bottom:14px;">Downloads</div>
+        <div style="border:1px solid #DDE2E7;">
+          <a href="#" style="display:flex;align-items:center;justify-content:space-between;padding:18px 22px;border-bottom:1px solid #ECEEF1;text-decoration:none;" style-hover="background:#F6F7F9;"><span style="display:flex;align-items:center;gap:14px;"><span style="font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:600;color:#C16A33;border:1px solid #e3c4ad;padding:5px 7px;">PDF</span><span style="font-size:14px;color:#0F2540;font-weight:500;">ISO 9001 Certificate</span></span><span style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#9aa6b2;">↓ 0.4 MB</span></a>
+          <a href="#" style="display:flex;align-items:center;justify-content:space-between;padding:18px 22px;border-bottom:1px solid #ECEEF1;text-decoration:none;" style-hover="background:#F6F7F9;"><span style="display:flex;align-items:center;gap:14px;"><span style="font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:600;color:#C16A33;border:1px solid #e3c4ad;padding:5px 7px;">PDF</span><span style="font-size:14px;color:#0F2540;font-weight:500;">ISO 45001 Certificate</span></span><span style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#9aa6b2;">↓ 0.4 MB</span></a>
+          <a href="#" style="display:flex;align-items:center;justify-content:space-between;padding:18px 22px;border-bottom:1px solid #ECEEF1;text-decoration:none;" style-hover="background:#F6F7F9;"><span style="display:flex;align-items:center;gap:14px;"><span style="font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:600;color:#C16A33;border:1px solid #e3c4ad;padding:5px 7px;">PDF</span><span style="font-size:14px;color:#0F2540;font-weight:500;">Welding Procedure Qualifications</span></span><span style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#9aa6b2;">↓ 1.1 MB</span></a>
+          <a href="#" style="display:flex;align-items:center;justify-content:space-between;padding:18px 22px;text-decoration:none;" style-hover="background:#F6F7F9;"><span style="display:flex;align-items:center;gap:14px;"><span style="font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:600;color:#C16A33;border:1px solid #e3c4ad;padding:5px 7px;">PDF</span><span style="font-size:14px;color:#0F2540;font-weight:500;">Company Safety Statement</span></span><span style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#9aa6b2;">↓ 0.6 MB</span></a>
+        </div>
+        <a href="Compliance.dc.html" style="display:inline-flex;margin-top:20px;font-size:13.5px;font-weight:600;color:#0F2540;text-decoration:none;font-family:'IBM Plex Mono',monospace;border-bottom:2px solid #C16A33;padding-bottom:4px;">All certificates &amp; documents →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WHY BALKOS ============ -->
+  <section style="background:#F4F5F7;padding:90px 0;border-top:1px solid #DCE0E5;border-bottom:1px solid #DCE0E5;">
+    <div style="max-width:1280px;margin:0 auto;padding:0 32px;">
+      <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:#C16A33;display:flex;align-items:center;gap:10px;"><span style="width:24px;height:1px;background:#C16A33;"></span>06 / Why Balkos</div>
+      <h2 style="font-size:40px;font-weight:600;color:#0F2540;letter-spacing:-0.015em;line-height:1.1;margin:18px 0 46px;">Built to execute inside your facility</h2>
+      <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:#DCE0E5;border:1px solid #DCE0E5;">
+        <div style="background:#fff;padding:28px 24px;"><div style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#C16A33;">01</div><h3 style="font-size:16px;font-weight:600;color:#0F2540;margin:16px 0 8px;">Qualified Workforce</h3><p style="font-size:13px;line-height:1.6;color:#6B7785;margin:0;">Certified welders, pipefitters and mechanics on our own payroll.</p></div>
+        <div style="background:#fff;padding:28px 24px;"><div style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#C16A33;">02</div><h3 style="font-size:16px;font-weight:600;color:#0F2540;margin:16px 0 8px;">Reliable Execution</h3><p style="font-size:13px;line-height:1.6;color:#6B7785;margin:0;">Scopes delivered to plan, to schedule and to specification.</p></div>
+        <div style="background:#fff;padding:28px 24px;"><div style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#C16A33;">03</div><h3 style="font-size:16px;font-weight:600;color:#0F2540;margin:16px 0 8px;">Industrial Experience</h3><p style="font-size:13px;line-height:1.6;color:#6B7785;margin:0;">Two decades inside refineries, chemical and petrochemical plants.</p></div>
+        <div style="background:#fff;padding:28px 24px;"><div style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#C16A33;">04</div><h3 style="font-size:16px;font-weight:600;color:#0F2540;margin:16px 0 8px;">Safety Focus</h3><p style="font-size:13px;line-height:1.6;color:#6B7785;margin:0;">Permit-to-work discipline and a zero-incident operating target.</p></div>
+        <div style="background:#fff;padding:28px 24px;"><div style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#C16A33;">05</div><h3 style="font-size:16px;font-weight:600;color:#0F2540;margin:16px 0 8px;">Project Delivery</h3><p style="font-size:13px;line-height:1.6;color:#6B7785;margin:0;">Single point of accountability from enquiry to handback.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CAREERS ============ -->
+  <section style="background:#fff;padding:64px 0;">
+    <div style="max-width:1280px;margin:0 auto;padding:0 32px;">
+      <div style="border:1px solid #DDE2E7;display:flex;align-items:stretch;justify-content:space-between;">
+        <div style="padding:38px 40px;display:flex;flex-direction:column;justify-content:center;">
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.16em;text-transform:uppercase;color:#9aa6b2;">07 / Careers</div>
+          <h2 style="font-size:26px;font-weight:600;color:#0F2540;margin:12px 0 8px;">Skilled trades — join our site teams</h2>
+          <p style="font-size:14.5px;color:#6B7785;margin:0;max-width:560px;line-height:1.6;">Welders, pipefitters, industrial mechanics and maintenance technicians. A separate track from project enquiries.</p>
+        </div>
+        <a href="Careers.dc.html" style="flex:none;align-self:stretch;background:#0F2540;color:#fff;text-decoration:none;display:flex;align-items:center;gap:12px;padding:0 40px;font-size:14.5px;font-weight:600;letter-spacing:0.03em;" style-hover="background:#0a1830;">View Open Positions <span style="font-family:'IBM Plex Mono',monospace;font-weight:400;">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FINAL CTA ============ -->
+  <section style="position:relative;background:#0B1E33;overflow:hidden;">
+    <img src="assets/refinery-overview.jpg" alt="Refinery" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0.22;" />
+    <div style="position:absolute;inset:0;background:linear-gradient(90deg,#08182a 30%,rgba(8,24,42,0.6) 100%);"></div>
+    <div style="position:relative;max-width:1280px;margin:0 auto;padding:84px 32px;display:flex;align-items:center;justify-content:space-between;gap:48px;">
+      <div>
+        <h2 style="font-size:42px;font-weight:700;color:#fff;letter-spacing:-0.02em;line-height:1.1;margin:0;">Need Reliable Industrial Support?</h2>
+        <p style="font-size:17px;color:#B7C6D6;margin:18px 0 0;max-width:560px;line-height:1.6;">Tell us about your project and we will respond with a realistic proposal.</p>
+      </div>
+      <div style="flex:none;display:flex;gap:14px;">
+        <a href="Contact.dc.html" style="background:#C16A33;color:#fff;font-size:14.5px;font-weight:600;letter-spacing:0.03em;text-decoration:none;padding:16px 28px;display:flex;align-items:center;gap:10px;" style-hover="background:#a9582a;">Request a Quote <span style="font-family:'IBM Plex Mono',monospace;font-weight:400;">→</span></a>
+        <a href="Contact.dc.html" style="background:transparent;color:#fff;font-size:14.5px;font-weight:600;letter-spacing:0.03em;text-decoration:none;padding:16px 28px;border:1px solid #41597a;display:flex;align-items:center;" style-hover="border-color:#fff;">Contact Us</a>
+      </div>
+    </div>
+  </section>
+
+  <dc-import name="SiteFooter" hint-size="100%,480px"></dc-import>
+</div>
+</x-dc>
+</body>
+</html>
