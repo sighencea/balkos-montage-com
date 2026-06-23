@@ -97,7 +97,7 @@ button{font-family:inherit;}
 .main-bar{background:#fff;border-bottom:1px solid var(--border);}
 .main-bar .container{height:var(--bar-h);display:flex;align-items:center;justify-content:space-between;gap:16px;}
 .brand{display:flex;align-items:center;flex:none;}
-.brand img{height:32px;width:auto;display:block;}
+.brand img{height:24px;width:auto;display:block;}
 .main-nav{display:flex;align-items:stretch;height:var(--bar-h);gap:0;}
 .nav-link{position:relative;display:flex;align-items:center;white-space:nowrap;height:var(--bar-h);padding:0 11px;font-size:13.5px;text-decoration:none;letter-spacing:0.005em;color:#51606E;font-weight:500;border-bottom:3px solid transparent;transition:color .15s,border-color .15s;}
 .nav-link:hover{color:var(--navy);}
