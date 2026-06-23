@@ -59,10 +59,22 @@
     }
   }
 
+  function initBackToTop() {
+    const btn = document.querySelector('[data-back-to-top]');
+    if (!btn) return;
+    const toggle = () => btn.classList.toggle('is-visible', window.scrollY > 300);
+    window.addEventListener('scroll', toggle, { passive: true });
+    btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+    toggle();
+  }
+
   async function boot() {
     const nodes = [...document.querySelectorAll('[data-include]')];
     await Promise.all(nodes.map(loadInclude));
     initMenu();
+    initBackToTop();
+    // dynamic copyright year (falls back to the hard-coded year without JS)
+    document.querySelectorAll('[data-year]').forEach(el => { el.textContent = new Date().getFullYear(); });
     if (window.I18n) await window.I18n.init();
     document.dispatchEvent(new Event('partials:loaded'));
   }
