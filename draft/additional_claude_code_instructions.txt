@@ -1,8 +1,0 @@
-Implement a language dropdown in the top right of the header. Make the default language to be EN. Make it so the website detects the browser language automatically and shows the site language as follows:
-- If browser Germany (or any other german speaking countries i.e. Austria, Switzerland etc.), show German language
-- If browser Romania, show Romanian language
-- For any other browsers, show English language
-
-Users can then still select a different language if they want to. Please use a i18n system to implement the languages.
-
-Please move everything you need out of the folder /draft. Once the website is completed, please delete the entire folder /draft.

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact &amp; Request a Quote | Balkos Montage</title>
+<meta name="description" content="Tell us about your industrial project and we will respond with a realistic proposal — typically within 48 hours.">
+<link rel="canonical" href="https://balkos-montage.com/contact.html">
+<link rel="icon" href="assets/img/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="assets/img/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="preload" as="font" type="font/woff2" href="assets/fonts/ibm-plex-sans-400-latin.woff2" crossorigin>
+<link rel="stylesheet" href="css/styles.css">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Contact &amp; Request a Quote | Balkos Montage">
+<meta property="og:description" content="Tell us about your industrial project and we will respond with a realistic proposal.">
+<script src="js/i18n.js" defer></script>
+<script src="js/include.js" defer></script>
+<script src="js/forms.js" defer></script>
+</head>
+<body>
+<div data-include="partials/nav.html" data-active="contact"></div>
+<main>
+
+  <section class="page-header">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html" data-i18n="nav.home">Home</a> &nbsp;/&nbsp; <span class="current" data-i18n="nav.contact">Contact</span></nav>
+      <h1 data-i18n="contact.header.h1">Request a quote</h1>
+      <p class="lead" data-i18n="contact.header.lead">Tell us about your project and we will respond with a realistic proposal — typically within 48 hours.</p>
+    </div>
+  </section>
+
+  <section class="section" style="border-bottom:none;">
+    <div class="container" style="display:grid;grid-template-columns:1.4fr 1fr;gap:64px;align-items:start;" data-contact-grid>
+      <!-- FORM -->
+      <div data-form-wrap>
+        <div class="eyebrow" style="margin-bottom:26px;" data-i18n="contact.eyebrow">Project enquiry</div>
+
+        <form data-placeholder-form novalidate>
+          <div class="form-grid-2">
+            <div class="field"><label data-i18n="contact.f.name">Full name *</label><input type="text" required data-i18n-attr="placeholder:contact.ph.name" placeholder="Your name"></div>
+            <div class="field"><label data-i18n="contact.f.company">Company *</label><input type="text" required data-i18n-attr="placeholder:contact.ph.company" placeholder="Company name"></div>
+            <div class="field"><label data-i18n="contact.f.email">Email *</label><input type="email" required data-i18n-attr="placeholder:contact.ph.email" placeholder="name@company.com"></div>
+            <div class="field"><label data-i18n="contact.f.phone">Phone</label><input type="tel" data-i18n-attr="placeholder:contact.ph.phone" placeholder="+40 ..."></div>
+          </div>
+          <div class="form-grid-2" style="margin-top:0;">
+            <div class="field"><label data-i18n="contact.f.service">Service required</label>
+              <select>
+                <option data-i18n="services.s01.title">Pipeline Construction &amp; Fabrication</option>
+                <option data-i18n="services.s02.title">Industrial Maintenance</option>
+                <option data-i18n="services.s03.title">Shutdown &amp; Turnaround</option>
+                <option data-i18n="services.s04.title">Personnel Leasing</option>
+                <option data-i18n="contact.opt.other">Other / not sure</option>
+              </select>
+            </div>
+            <div class="field"><label data-i18n="contact.f.industry">Industry</label>
+              <select>
+                <option data-i18n="ind.chemical">Chemical</option>
+                <option data-i18n="ind.petrochemical">Petrochemical</option>
+                <option data-i18n="ind.refinery">Refinery</option>
+                <option data-i18n="ind.foundry">Foundry</option>
+                <option data-i18n="ind.manufacturing">Manufacturing</option>
+                <option data-i18n="ind.energy">Energy</option>
+              </select>
+            </div>
+          </div>
+          <div class="field"><label data-i18n="contact.f.desc">Project description *</label><textarea rows="5" required data-i18n-attr="placeholder:contact.ph.desc" placeholder="Scope, location, timeframe and any specific requirements."></textarea></div>
+          <div style="display:flex;align-items:center;gap:20px;flex-wrap:wrap;">
+            <button type="submit" class="btn btn-primary"><span data-i18n="contact.submit">Submit enquiry</span> <span class="arrow">→</span></button>
+            <span style="font-size:12.5px;color:var(--faint);" data-i18n="contact.respond">We respond within 48 hours.</span>
+          </div>
+        </form>
+
+        <!-- confirmation -->
+        <div data-confirm hidden style="border:1px solid var(--border-card);border-top:3px solid var(--orange);padding:40px;background:var(--gray2);">
+          <div class="mono" style="font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:var(--orange);" data-i18n="contact.ok.eyebrow">Enquiry received</div>
+          <h3 style="font-size:24px;font-weight:600;color:var(--navy);margin:14px 0 10px;" data-i18n="contact.ok.h3">Thank you — we'll be in touch</h3>
+          <p style="font-size:15px;color:var(--muted);line-height:1.6;margin:0 0 24px;" data-i18n="contact.ok.body">Your enquiry has been logged. A member of our project team will respond, typically within 48 hours.</p>
+          <button type="button" class="btn btn-navy btn-sm" data-reset data-i18n="contact.ok.again">Submit another enquiry</button>
+        </div>
+      </div>
+
+      <!-- CONTACT INFO -->
+      <div>
+        <div style="border:1px solid var(--border-card);">
+          <div style="background:var(--navy);padding:24px 26px;"><div class="mono" style="font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:var(--mono-navy);" data-i18n="contact.direct">Direct contact</div></div>
+          <div style="padding:24px 26px;border-bottom:1px solid var(--border-faint);"><div class="mono" style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:var(--faint);" data-i18n="contact.f.phone">Phone</div><div class="mono" style="font-size:15px;color:var(--navy);margin-top:7px;"><a href="tel:+40744431889" style="color:var(--navy);text-decoration:none;">+40 744 431 889</a></div></div>
+          <div style="padding:24px 26px;border-bottom:1px solid var(--border-faint);"><div class="mono" style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:var(--faint);" data-i18n="contact.label.email">Email</div><div class="mono" style="font-size:15px;color:var(--navy);margin-top:7px;"><a href="mailto:liviu.pop@balkos-montage.com" style="color:var(--navy);text-decoration:none;">liviu.pop@balkos-montage.com</a></div></div>
+          <div style="padding:24px 26px;"><div class="mono" style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:var(--faint);" data-i18n="contact.office">Head office</div><address style="font-style:normal;font-size:14.5px;color:var(--navy);margin-top:7px;line-height:1.7;">BALKOS INDUSTRIE MONTAGE SRL<br>Str. Lac de Nuferi, nr. 18<br>Sc. A, Et. 3, Ap. 24<br>Chitila, Ilfov, România</address></div>
+        </div>
+        <div style="border:1px solid var(--border-card);border-top:none;background:var(--gray2);padding:24px 26px;">
+          <div class="mono" style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:var(--faint);margin-bottom:12px;" data-i18n="contact.details">Company details</div>
+          <div style="display:flex;flex-direction:column;gap:9px;font-size:13px;">
+            <div style="display:flex;justify-content:space-between;gap:14px;"><span style="color:var(--muted);" data-i18n="contact.legalForm">Legal form</span><span class="mono" style="color:var(--navy);">SRL</span></div>
+            <div style="display:flex;justify-content:space-between;gap:14px;"><span style="color:var(--muted);" data-i18n="contact.register">Commercial register</span><span class="mono" style="color:var(--navy);">J23/2259/2018</span></div>
+            <div style="display:flex;justify-content:space-between;gap:14px;"><span style="color:var(--muted);" data-i18n="contact.vat">CIF</span><span class="mono" style="color:var(--navy);">39368920</span></div>
+            <div style="display:flex;justify-content:space-between;gap:14px;"><span style="color:var(--muted);" data-i18n="contact.hours">Opening hours</span><span class="mono" style="color:var(--navy);">Mon–Fri 09:00–17:00</span></div>
+          </div>
+        </div>
+        <div style="border:1px solid var(--border-card);border-top:none;background:#fff;padding:18px 26px;">
+          <a href="careers.html" style="font-size:13px;color:var(--navy);text-decoration:none;display:flex;justify-content:space-between;align-items:center;gap:14px;"><span data-i18n="contact.jobSeeker">Looking for a job instead?</span><span class="mono" style="color:var(--orange);font-weight:600;"><span data-i18n="nav.careers">Careers</span> →</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+<div data-include="partials/footer.html"></div>
+</body>
+</html>
