@@ -145,7 +145,7 @@
   "compliance.safety.item3": "Controale pentru lucrul la cald &amp; spații închise",
   "compliance.safety.item4": "Obiectiv operațional cu zero incidente",
   "compliance.safety.lead": "Fiecare lucrare este executată sub un regim de siguranță documentat, aliniat regulilor de amplasament ale clientului.",
-  "contact.branch": "Sediu secundar",
+  "contact.branch": "Sucursală",
   "contact.details": "Date companie",
   "contact.direct": "Contact direct",
   "contact.eyebrow": "Solicitare de proiect",
@@ -487,6 +487,7 @@
   "services.s04.role3.cert": "Certificați",
   "services.s04.title": "Leasing de personal",
   "svc.fabrication": "Confecționare",
+  "unit.years": " ani",
   "svc.maintenance": "Mentenanță",
   "svc.pipeline": "Conducte",
   "svc.shutdown": "Shutdown"

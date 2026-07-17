@@ -487,6 +487,7 @@
   "services.s04.role3.cert": "Zertifiziert",
   "services.s04.title": "Personalüberlassung",
   "svc.fabrication": "Vorfertigung",
+  "unit.years": " J.",
   "svc.maintenance": "Instandhaltung",
   "svc.pipeline": "Rohrleitung",
   "svc.shutdown": "Stillstand"
