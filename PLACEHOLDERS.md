@@ -5,12 +5,15 @@ already in place from `company_details.txt`. The items below were **invented in
 the design draft** and must be verified with real data before going live.
 
 ## Figures / statistics (currently placeholder numbers)
-- Home hero strip: `20+` years, `350+` workforce, `4` sectors, `0.0` LTI target.
-- "Est." date was **removed** from the hero (company registered 2018, J23/2259/2018)
-  — re-add a real founding year if there is one.
-- Clients stats (Home + Clients): `40+` clients, `12 yrs` longest, `85%` repeat, `6` sectors.
-- "Why Balkos" / projects copy: `99.4%` availability, `40%` downtime cut, "two decades", etc.
+- Home hero strip: `8+` years, `80+` workforce, `4` sectors, `0.0` LTI target.
+- "Est." date was **removed** from the hero (company registered 2018, J23/2259/2018);
+  re-add a real founding year if there is one.
+- Clients stats (Home + Clients): `40+` clients, `8 yrs` longest, `85%` repeat, `6` sectors.
+- "Why Balkos" / projects copy: `99.4%` availability, `40%` downtime cut, etc.
 - Project references (`projects.html`, 8 entries, codes PRJ-009…PRJ-036) are illustrative.
+- **Branch office** on `contact.html` uses bracketed placeholder address lines
+  (`[Street, no.]`, `[City, region]`, `[Country]`) — replace with the real
+  branch address.
 
 ## Certifications & documents
 - Confirm which certificates the company actually holds: ISO 9001, ISO 45001,

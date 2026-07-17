@@ -51,6 +51,8 @@ window.I18n = (function () {
       });
     });
     document.querySelectorAll('[data-lang-current]').forEach(el => el.textContent = current.toUpperCase());
+    document.querySelectorAll('[data-lang-flag]').forEach(el =>
+      el.setAttribute('src', 'assets/img/flags/' + (current === 'en' ? 'gb' : current) + '.svg'));
     document.querySelectorAll('[data-lang]').forEach(b =>
       b.setAttribute('aria-current', b.getAttribute('data-lang') === current ? 'true' : 'false'));
     document.dispatchEvent(new CustomEvent('i18n:applied', { detail: { lang: current } }));
