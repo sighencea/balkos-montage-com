@@ -1,0 +1,17 @@
+# Normalize line endings: store and check out text files as LF.
+# This overrides a local core.autocrlf=true, which is what triggers the
+# GitHub Desktop "LF will be replaced by CRLF" warning.
+* text=auto eol=lf
+
+# Explicitly treat binary assets as binary (never touch their bytes).
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.webp binary
+*.woff  binary
+*.woff2 binary
+*.ttf   binary
+*.eot   binary
+*.pdf   binary

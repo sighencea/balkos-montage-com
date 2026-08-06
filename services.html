@@ -44,22 +44,26 @@
   <!-- ============ SERVICE INDEX ============ -->
   <section style="background:#fff;border-bottom:1px solid var(--border);">
     <div class="container" style="padding:0;">
-      <div class="hgrid" style="grid-template-columns:repeat(4,1fr);border:none;">
+      <div class="hgrid" style="grid-template-columns:repeat(5,1fr);border:none;">
         <a href="#s01" class="hcell" style="padding:22px 8px;display:flex;gap:12px;align-items:baseline;text-decoration:none;">
           <span class="mono" style="font-size:12px;color:var(--orange);">01</span>
           <span style="font-size:14px;font-weight:600;color:var(--navy);" data-i18n="services.s01.title">Pipeline Construction &amp; Fabrication</span>
         </a>
-        <a href="#s02" class="hcell" style="padding:22px 8px;display:flex;gap:12px;align-items:baseline;text-decoration:none;">
+        <a href="#seng" class="hcell" style="padding:22px 8px;display:flex;gap:12px;align-items:baseline;text-decoration:none;">
           <span class="mono" style="font-size:12px;color:var(--orange);">02</span>
+          <span style="font-size:14px;font-weight:600;color:var(--navy);" data-i18n="services.seng.title">Engineering &amp; Planning</span>
+        </a>
+        <a href="#s02" class="hcell" style="padding:22px 8px;display:flex;gap:12px;align-items:baseline;text-decoration:none;">
+          <span class="mono" style="font-size:12px;color:var(--orange);">03</span>
           <span style="font-size:14px;font-weight:600;color:var(--navy);" data-i18n="services.s02.title">Industrial Maintenance</span>
         </a>
         <a href="#s03" class="hcell" style="padding:22px 8px;display:flex;gap:12px;align-items:baseline;text-decoration:none;">
-          <span class="mono" style="font-size:12px;color:var(--orange);">03</span>
+          <span class="mono" style="font-size:12px;color:var(--orange);">04</span>
           <span style="font-size:14px;font-weight:600;color:var(--navy);" data-i18n="services.s03.title">Shutdown &amp; Turnaround</span>
         </a>
         <a href="#s04" class="hcell" style="padding:22px 8px;display:flex;gap:12px;align-items:baseline;text-decoration:none;">
-          <span class="mono" style="font-size:12px;color:var(--marker);">04</span>
-          <span style="font-size:14px;font-weight:600;color:var(--muted);" data-i18n="services.s04.title">Personnel Leasing</span>
+          <span class="mono" style="font-size:12px;color:var(--orange);">05</span>
+          <span style="font-size:14px;font-weight:600;color:var(--navy);" data-i18n="services.s04.title">Personnel Leasing</span>
         </a>
       </div>
     </div>
@@ -97,8 +101,40 @@
     </div>
   </section>
 
+  <!-- ============ SERVICE ENG — Engineering & Planning ============ -->
+  <section id="seng" class="section section--gray">
+    <div class="container">
+      <div class="split">
+        <div class="split-copy">
+          <div class="eyebrow"><span data-i18n="services.label.seng">Service 02</span></div>
+          <h2 data-i18n="services.seng.title">Engineering &amp; Planning</h2>
+          <p data-i18n="services.seng.overview">On-site measurement and complete fabrication documentation. We turn field surveys into accurate isometrics, as-built drawings and shop fabrication drawings, ready for the workshop and the site.</p>
+          <div class="mono" style="font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:var(--faint);margin:28px 0 14px;" data-i18n="services.label.capabilities">Capabilities</div>
+          <div class="hgrid" style="grid-template-columns:1fr 1fr;">
+            <div class="hcell" style="padding:14px 16px;font-size:13.5px;font-weight:600;color:var(--navy);" data-i18n="services.seng.cap1">On-site measurement</div>
+            <div class="hcell" style="padding:14px 16px;font-size:13.5px;font-weight:600;color:var(--navy);" data-i18n="services.seng.cap2">Isometric drawings</div>
+            <div class="hcell" style="padding:14px 16px;font-size:13.5px;font-weight:600;color:var(--navy);" data-i18n="services.seng.cap3">As-built drawings</div>
+            <div class="hcell" style="padding:14px 16px;font-size:13.5px;font-weight:600;color:var(--navy);" data-i18n="services.seng.cap4">Fabrication drawings</div>
+          </div>
+        </div>
+        <div><img src="assets/img/iso-piping-plan.png" alt="Plan CAD isometric pe birou de proiectare" data-i18n-attr="alt:alt.engineering" loading="lazy" width="640" height="420" style="height:420px;"></div>
+      </div>
+      <!-- process -->
+      <div style="margin-top:48px;">
+        <div class="mono" style="font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:var(--faint);margin-bottom:18px;" data-i18n="services.label.process">Process</div>
+        <div class="hgrid" style="grid-template-columns:repeat(4,1fr);">
+          <div class="hcell card-top-navy" style="padding:24px;"><div class="mono" style="font-size:13px;font-weight:600;color:var(--orange);">01</div><div style="font-size:14px;font-weight:600;color:var(--navy);margin-top:10px;" data-i18n="services.seng.step1.t">Field measurement</div><p style="font-size:12.5px;color:var(--muted);margin:6px 0 0;line-height:1.55;" data-i18n="services.seng.step1.d">Site survey and data capture.</p></div>
+          <div class="hcell card-top-navy" style="padding:24px;"><div class="mono" style="font-size:13px;font-weight:600;color:var(--orange);">02</div><div style="font-size:14px;font-weight:600;color:var(--navy);margin-top:10px;" data-i18n="services.seng.step2.t">Isometrics</div><p style="font-size:12.5px;color:var(--muted);margin:6px 0 0;line-height:1.55;" data-i18n="services.seng.step2.d">Isometric drawings prepared.</p></div>
+          <div class="hcell card-top-navy" style="padding:24px;"><div class="mono" style="font-size:13px;font-weight:600;color:var(--orange);">03</div><div style="font-size:14px;font-weight:600;color:var(--navy);margin-top:10px;" data-i18n="services.seng.step3.t">Fabrication drawings</div><p style="font-size:12.5px;color:var(--muted);margin:6px 0 0;line-height:1.55;" data-i18n="services.seng.step3.d">Shop drawings and material lists.</p></div>
+          <div class="hcell card-top-navy" style="padding:24px;"><div class="mono" style="font-size:13px;font-weight:600;color:var(--orange);">04</div><div style="font-size:14px;font-weight:600;color:var(--navy);margin-top:10px;" data-i18n="services.seng.step4.t">As-built</div><p style="font-size:12.5px;color:var(--muted);margin:6px 0 0;line-height:1.55;" data-i18n="services.seng.step4.d">As-built documentation delivered.</p></div>
+        </div>
+        <a href="contact.html" class="btn btn-navy btn-sm" style="margin-top:26px;"><span data-i18n="cta.quote">Request a Quote</span> <span class="arrow">→</span></a>
+      </div>
+    </div>
+  </section>
+
   <!-- ============ SERVICE 02 ============ -->
-  <section id="s02" class="section section--gray">
+  <section id="s02" class="section">
     <div class="container">
       <div class="split">
         <div><img src="assets/img/refinery-workers.jpg" alt="Mentenanță industrială" data-i18n-attr="alt:alt.maintenance" loading="lazy" width="640" height="420" style="height:420px;"></div>
@@ -112,6 +148,8 @@
             <div class="hcell" style="padding:14px 16px;font-size:13.5px;font-weight:600;color:var(--navy);" data-i18n="services.s02.cap2">Corrective repairs</div>
             <div class="hcell" style="padding:14px 16px;font-size:13.5px;font-weight:600;color:var(--navy);" data-i18n="services.s02.cap3">Equipment overhaul</div>
             <div class="hcell" style="padding:14px 16px;font-size:13.5px;font-weight:600;color:var(--navy);" data-i18n="services.s02.cap4">On-call standby crews</div>
+            <div class="hcell" style="padding:14px 16px;font-size:13.5px;font-weight:600;color:var(--navy);" data-i18n="services.s02.cap5">Electric motor &amp; gearbox servicing</div>
+            <div class="hcell" style="padding:14px 16px;font-size:13.5px;font-weight:600;color:var(--navy);" data-i18n="services.s02.cap6">Valve maintenance</div>
           </div>
         </div>
       </div>
@@ -130,7 +168,7 @@
   </section>
 
   <!-- ============ SERVICE 03 ============ -->
-  <section id="s03" class="section">
+  <section id="s03" class="section section--gray">
     <div class="container">
       <div class="split">
         <div class="split-copy">
@@ -161,25 +199,22 @@
     </div>
   </section>
 
-  <!-- ============ SERVICE 04, SECONDARY (NAVY) ============ -->
-  <section id="s04" class="section section--navy">
+  <!-- ============ SERVICE 04 — Personnel Leasing ============ -->
+  <section id="s04" class="section">
     <div class="container">
-      <div class="flex-between" style="align-items:flex-start;">
-        <div style="max-width:620px;">
-          <div style="display:flex;align-items:center;gap:12px;">
-            <div class="eyebrow eyebrow--navy"><span data-i18n="services.label.s04">Service 04</span></div>
-            <span class="chip-secondary" style="color:var(--on-navy-muted);" data-i18n="label.secondary">Secondary service</span>
+      <div class="split">
+        <div><img src="assets/img/refinery-workers.jpg" alt="Muncitori industriali" data-i18n-attr="alt:alt.workers" loading="lazy" width="640" height="420" style="height:420px;"></div>
+        <div class="split-copy">
+          <div class="eyebrow"><span data-i18n="services.label.s04">Service 05</span></div>
+          <h2 data-i18n="services.s04.title">Personnel Leasing</h2>
+          <p data-i18n="services.s04.overview">When project demand peaks, we second qualified welders, pipefitters and industrial mechanics to reinforce your own teams, the same trades that execute our projects, available on a temporary basis.</p>
+          <div class="mono" style="font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:var(--faint);margin:28px 0 14px;" data-i18n="services.label.capabilities">Capabilities</div>
+          <div class="hgrid" style="grid-template-columns:repeat(3,1fr);">
+            <div class="hcell" style="padding:14px 16px;font-size:13.5px;font-weight:600;color:var(--navy);" data-i18n="services.s04.role1">Welders</div>
+            <div class="hcell" style="padding:14px 16px;font-size:13.5px;font-weight:600;color:var(--navy);" data-i18n="services.s04.role2">Pipefitters</div>
+            <div class="hcell" style="padding:14px 16px;font-size:13.5px;font-weight:600;color:var(--navy);" data-i18n="services.s04.role3">Industrial mechanics</div>
           </div>
-          <h2 class="h2" style="color:#fff;font-size:30px;margin-top:14px;" data-i18n="services.s04.title">Personnel Leasing</h2>
-          <p style="font-size:15px;line-height:1.7;color:var(--on-navy-muted);margin-top:14px;" data-i18n="services.s04.overview">When project demand peaks, we second qualified welders, pipefitters and industrial mechanics to reinforce your own teams, the same trades that execute our projects, available on a temporary basis.</p>
-        </div>
-        <div style="flex:none;min-width:300px;">
-          <div class="hgrid" style="grid-template-columns:1fr;">
-            <div class="hcell" style="display:flex;justify-content:space-between;align-items:center;gap:18px;padding:16px 18px;"><span style="font-size:13.5px;color:#fff;" data-i18n="services.s04.role1">Welders</span><span class="mono" style="font-size:12px;color:var(--mono-navy);" data-i18n="services.s04.role1.cert">EN ISO 9606</span></div>
-            <div class="hcell" style="display:flex;justify-content:space-between;align-items:center;gap:18px;padding:16px 18px;"><span style="font-size:13.5px;color:#fff;" data-i18n="services.s04.role2">Pipefitters</span><span class="mono" style="font-size:12px;color:var(--mono-navy);" data-i18n="services.s04.role2.cert">Certified</span></div>
-            <div class="hcell" style="display:flex;justify-content:space-between;align-items:center;gap:18px;padding:16px 18px;"><span style="font-size:13.5px;color:#fff;" data-i18n="services.s04.role3">Industrial mechanics</span><span class="mono" style="font-size:12px;color:var(--mono-navy);" data-i18n="services.s04.role3.cert">Certified</span></div>
-          </div>
-          <a href="contact.html" class="link-underline" style="margin-top:18px;"><span data-i18n="services.s04.cta">Enquire about leasing</span> →</a>
+          <a href="contact.html" class="btn btn-navy btn-sm" style="margin-top:26px;"><span data-i18n="cta.quote">Request a Quote</span> <span class="arrow">→</span></a>
         </div>
       </div>
     </div>

@@ -40,38 +40,42 @@
     </div>
   </section>
 
-  <!-- FILTER BAR (sticky under header) -->
-  <section class="filter-bar" data-projects>
-    <div class="container">
-      <div class="filter-row">
-        <span class="flabel" data-i18n="projects.filter.industry">Industry</span>
-        <div style="display:flex;flex-wrap:wrap;gap:8px;">
-          <button class="fchip is-active" data-facet="industry" data-value="All" data-i18n="label.all">All</button>
-          <button class="fchip" data-facet="industry" data-value="Refinery" data-i18n="ind.refinery">Refinery</button>
-          <button class="fchip" data-facet="industry" data-value="Petrochemical" data-i18n="ind.petrochemical">Petrochemical</button>
-          <button class="fchip" data-facet="industry" data-value="Chemical" data-i18n="ind.chemical">Chemical</button>
-          <button class="fchip" data-facet="industry" data-value="Foundry" data-i18n="ind.foundry">Foundry</button>
-          <button class="fchip" data-facet="industry" data-value="Manufacturing" data-i18n="ind.manufacturing">Manufacturing</button>
-          <button class="fchip" data-facet="industry" data-value="Energy" data-i18n="ind.energy">Energy</button>
-        </div>
-      </div>
-      <div class="filter-row">
-        <span class="flabel" data-i18n="projects.filter.service">Service</span>
-        <div style="display:flex;flex-wrap:wrap;gap:8px;">
-          <button class="fchip is-active" data-facet="service" data-value="All" data-i18n="label.all">All</button>
-          <button class="fchip" data-facet="service" data-value="Pipeline" data-i18n="svc.pipeline">Pipeline</button>
-          <button class="fchip" data-facet="service" data-value="Maintenance" data-i18n="svc.maintenance">Maintenance</button>
-          <button class="fchip" data-facet="service" data-value="Shutdown" data-i18n="svc.shutdown">Shutdown</button>
-          <button class="fchip" data-facet="service" data-value="Fabrication" data-i18n="svc.fabrication">Fabrication</button>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- RESULTS -->
   <section class="section--gray" style="padding:40px 0 80px;min-height:540px;">
     <div class="container">
-      <div class="results-count" data-results-count>8 projects shown</div>
+      <div class="results-head" data-projects>
+        <div class="results-count" data-results-count>8 projects shown</div>
+        <div class="filter-dd">
+          <button type="button" class="filter-btn" data-filter-toggle aria-expanded="false" aria-haspopup="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon></svg>
+            <span data-i18n="projects.filter.btn">Filter</span>
+          </button>
+          <div class="filter-panel" data-filter-panel hidden>
+            <div class="filter-group">
+              <span class="flabel" data-i18n="projects.filter.industry">Industry</span>
+              <div class="fchip-wrap">
+                <button class="fchip is-active" data-facet="industry" data-value="All" data-i18n="label.all">All</button>
+                <button class="fchip" data-facet="industry" data-value="Refinery" data-i18n="ind.refinery">Refinery</button>
+                <button class="fchip" data-facet="industry" data-value="Petrochemical" data-i18n="ind.petrochemical">Petrochemical</button>
+                <button class="fchip" data-facet="industry" data-value="Chemical" data-i18n="ind.chemical">Chemical</button>
+                <button class="fchip" data-facet="industry" data-value="Foundry" data-i18n="ind.foundry">Foundry</button>
+                <button class="fchip" data-facet="industry" data-value="Manufacturing" data-i18n="ind.manufacturing">Manufacturing</button>
+                <button class="fchip" data-facet="industry" data-value="Energy" data-i18n="ind.energy">Energy</button>
+              </div>
+            </div>
+            <div class="filter-group">
+              <span class="flabel" data-i18n="projects.filter.service">Service</span>
+              <div class="fchip-wrap">
+                <button class="fchip is-active" data-facet="service" data-value="All" data-i18n="label.all">All</button>
+                <button class="fchip" data-facet="service" data-value="Pipeline" data-i18n="svc.pipeline">Pipeline</button>
+                <button class="fchip" data-facet="service" data-value="Maintenance" data-i18n="svc.maintenance">Maintenance</button>
+                <button class="fchip" data-facet="service" data-value="Shutdown" data-i18n="svc.shutdown">Shutdown</button>
+                <button class="fchip" data-facet="service" data-value="Fabrication" data-i18n="svc.fabrication">Fabrication</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="grid-3">
 
         <article class="card" data-project data-industry="Refinery" data-services="Shutdown,Maintenance">
