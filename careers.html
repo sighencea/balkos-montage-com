@@ -102,14 +102,15 @@
       <!-- APPLICATION FORM (placeholder) -->
       <div id="apply" data-form-wrap>
         <h2 style="font-size:26px;font-weight:600;color:var(--navy);margin:0 0 22px;" data-i18n="careers.form.h2">Apply now</h2>
-        <form data-placeholder-form novalidate style="background:#fff;border:1px solid var(--border-card);padding:30px;">
-          <div class="field"><label data-i18n="careers.form.name">Full name *</label><input type="text" required data-i18n-attr="placeholder:contact.ph.name" placeholder="Your name"></div>
+        <form data-placeholder-form action="https://formspree.io/f/mvkpgdae" method="POST" novalidate style="background:#fff;border:1px solid var(--border-card);padding:30px;">
+          <input type="hidden" name="_subject" value="New job application — Balkos Montage">
+          <div class="field"><label data-i18n="careers.form.name">Full name *</label><input type="text" name="name" required data-i18n-attr="placeholder:contact.ph.name" placeholder="Your name"></div>
           <div class="form-grid-2">
-            <div class="field"><label data-i18n="careers.form.email">Email *</label><input type="email" required data-i18n-attr="placeholder:contact.ph.email" placeholder="name@email.com"></div>
-            <div class="field"><label data-i18n="careers.form.phone">Phone</label><input type="tel" data-i18n-attr="placeholder:contact.ph.phone" placeholder="+40 ..."></div>
+            <div class="field"><label data-i18n="careers.form.email">Email *</label><input type="email" name="email" required data-i18n-attr="placeholder:contact.ph.email" placeholder="name@email.com"></div>
+            <div class="field"><label data-i18n="careers.form.phone">Phone</label><input type="tel" name="phone" data-i18n-attr="placeholder:contact.ph.phone" placeholder="+40 ..."></div>
           </div>
           <div class="field"><label data-i18n="careers.form.position">Position *</label>
-            <select required>
+            <select name="position" required>
               <option data-i18n="careers.job5.title">Engineer</option>
               <option data-i18n="careers.job1.title">Welder</option>
               <option data-i18n="careers.job2.title">Pipefitter</option>
@@ -118,8 +119,8 @@
               <option data-i18n="careers.form.other">Other / general application</option>
             </select>
           </div>
-          <div class="field"><label data-i18n="careers.form.cv">CV / certificates</label><input type="file" accept=".pdf,.doc,.docx,.jpg,.png" multiple></div>
-          <div class="field"><label data-i18n="careers.form.msg">Message</label><textarea rows="4" data-i18n-attr="placeholder:careers.form.msgPh" placeholder="Tell us about your experience and certifications."></textarea></div>
+          <div class="field"><label data-i18n="careers.form.cv">CV / certificates</label><input type="file" name="cv" accept=".pdf,.doc,.docx,.jpg,.png" multiple></div>
+          <div class="field"><label data-i18n="careers.form.msg">Message</label><textarea rows="4" name="message" data-i18n-attr="placeholder:careers.form.msgPh" placeholder="Tell us about your experience and certifications."></textarea></div>
           <button type="submit" class="btn btn-primary"><span data-i18n="careers.form.submit">Send application</span> <span class="arrow">→</span></button>
         </form>
         <div data-confirm hidden style="border:1px solid var(--border-card);border-top:3px solid var(--orange);padding:40px;background:var(--gray2);">

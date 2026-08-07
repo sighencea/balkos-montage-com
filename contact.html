@@ -46,16 +46,17 @@
       <div data-form-wrap>
         <div class="eyebrow" style="margin-bottom:26px;" data-i18n="contact.eyebrow">Project enquiry</div>
 
-        <form data-placeholder-form novalidate>
+        <form data-placeholder-form action="https://formspree.io/f/mvkpgdae" method="POST" novalidate>
+          <input type="hidden" name="_subject" value="New project enquiry — Balkos Montage">
           <div class="form-grid-2">
-            <div class="field"><label data-i18n="contact.f.name">Full name *</label><input type="text" required data-i18n-attr="placeholder:contact.ph.name" placeholder="Your name"></div>
-            <div class="field"><label data-i18n="contact.f.company">Company *</label><input type="text" required data-i18n-attr="placeholder:contact.ph.company" placeholder="Company name"></div>
-            <div class="field"><label data-i18n="contact.f.email">Email *</label><input type="email" required data-i18n-attr="placeholder:contact.ph.email" placeholder="name@company.com"></div>
-            <div class="field"><label data-i18n="contact.f.phone">Phone</label><input type="tel" data-i18n-attr="placeholder:contact.ph.phone" placeholder="+40 ..."></div>
+            <div class="field"><label data-i18n="contact.f.name">Full name *</label><input type="text" name="name" required data-i18n-attr="placeholder:contact.ph.name" placeholder="Your name"></div>
+            <div class="field"><label data-i18n="contact.f.company">Company *</label><input type="text" name="company" required data-i18n-attr="placeholder:contact.ph.company" placeholder="Company name"></div>
+            <div class="field"><label data-i18n="contact.f.email">Email *</label><input type="email" name="email" required data-i18n-attr="placeholder:contact.ph.email" placeholder="name@company.com"></div>
+            <div class="field"><label data-i18n="contact.f.phone">Phone</label><input type="tel" name="phone" data-i18n-attr="placeholder:contact.ph.phone" placeholder="+40 ..."></div>
           </div>
           <div class="form-grid-2" style="margin-top:0;">
             <div class="field"><label data-i18n="contact.f.service">Service required</label>
-              <select>
+              <select name="service">
                 <option data-i18n="services.s01.title">Pipeline Construction &amp; Fabrication</option>
                 <option data-i18n="services.s02.title">Industrial Maintenance</option>
                 <option data-i18n="services.s03.title">Shutdown &amp; Turnaround</option>
@@ -64,7 +65,7 @@
               </select>
             </div>
             <div class="field"><label data-i18n="contact.f.industry">Industry</label>
-              <select>
+              <select name="industry">
                 <option data-i18n="ind.chemical">Chemical</option>
                 <option data-i18n="ind.petrochemical">Petrochemical</option>
                 <option data-i18n="ind.refinery">Refinery</option>
@@ -75,7 +76,7 @@
               </select>
             </div>
           </div>
-          <div class="field"><label data-i18n="contact.f.desc">Project description *</label><textarea rows="5" required data-i18n-attr="placeholder:contact.ph.desc" placeholder="Scope, location, timeframe and any specific requirements."></textarea></div>
+          <div class="field"><label data-i18n="contact.f.desc">Project description *</label><textarea rows="5" name="message" required data-i18n-attr="placeholder:contact.ph.desc" placeholder="Scope, location, timeframe and any specific requirements."></textarea></div>
           <div style="display:flex;align-items:center;gap:20px;flex-wrap:wrap;">
             <button type="submit" class="btn btn-primary"><span data-i18n="contact.submit">Submit enquiry</span> <span class="arrow">→</span></button>
             <span style="font-size:12.5px;color:var(--faint);" data-i18n="contact.respond">We respond promptly.</span>
